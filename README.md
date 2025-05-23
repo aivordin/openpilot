@@ -1,3 +1,7 @@
+1，添加了中国版本威兰达高性能版本2021的指纹
+2，可以自动识别车型，并自动对应到纵向功能
+3，屏蔽了GPS报错
+
 [![openpilot on the comma 3X](https://i.imgur.com/Zwv9SaN.png)](https://comma.ai/shop/comma-3x)
 
 What is openpilot?
