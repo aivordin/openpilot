@@ -1,3 +1,6 @@
+1，基于chrispypatt提交的PR改的第一个支持威兰达的版本，纪念意义巨大
+2，需要选车型到RAV4 PRIME 2021
+
 <div align="center" style="text-align: center;">
 
 <h1>openpilot</h1>
