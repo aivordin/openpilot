@@ -1,3 +1,5 @@
+第一个支持横向的版本，不支持纵向
+
 <div align="center" style="text-align: center;">
 
 <h1>openpilot</h1>
