@@ -1,3 +1,6 @@
+1，删除PCM，支持威兰达PHEV纵向功能
+2，需要手动选车型RAV4 PRIME2021
+
 [![openpilot on the comma 3X](https://i.imgur.com/Zwv9SaN.png)](https://comma.ai/shop/comma-3x)
 
 What is openpilot?
