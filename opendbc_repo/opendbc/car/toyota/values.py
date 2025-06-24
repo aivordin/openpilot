@@ -300,6 +300,10 @@ class CAR(Platforms):
     [ToyotaCarDocs("Toyota Sienna 2021-23", min_enable_speed=MIN_ACC_SPEED)],
     CarSpecs(mass=4625. * CV.LB_TO_KG, wheelbase=3.06, steerRatio=17.8, tireStiffnessFactor=0.444),
   )
+  TOYOTA_WILDLANDER = ToyotaSecOCPlatformConfig(
+    [ToyotaCarDocs("Toyota Wildlander PHEV 2021", min_enable_speed=MIN_ACC_SPEED)],
+    CarSpecs(mass=4155. * CV.LB_TO_KG, wheelbase=2.69, steerRatio=16.88, tireStiffnessFactor=0.5533),
+  )
 
   # Lexus
   LEXUS_CTH = PlatformConfig(
@@ -317,7 +321,7 @@ class CAR(Platforms):
   )
   LEXUS_ES_TSS2 = ToyotaTSS2PlatformConfig(
     [
-      ToyotaCarDocs("Lexus ES 2019-25"),
+      ToyotaCarDocs("Lexus ES 2019-24"),
       ToyotaCarDocs("Lexus ES Hybrid 2019-25", video="https://youtu.be/BZ29osRVJeg?t=12"),
     ],
     LEXUS_ES.specs,
@@ -329,7 +333,7 @@ class CAR(Platforms):
     flags=ToyotaFlags.UNSUPPORTED_DSU,
   )
   LEXUS_IS_TSS2 = ToyotaTSS2PlatformConfig(
-    [ToyotaCarDocs("Lexus IS 2022-24")],
+    [ToyotaCarDocs("Lexus IS 2022-23")],
     LEXUS_IS.specs,
   )
   LEXUS_NX = PlatformConfig(
