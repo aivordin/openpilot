@@ -208,7 +208,7 @@ class CarState(CarStateBase):
       # distance button is wired to the ACC module (camera or radar)
       self.prev_distance_button = self.distance_button
       if self.CP.carFingerprint in (SECOC_CAR - RADAR_ACC_CAR):
-        self.distance_button = cp.vl["PCM_CRUISE_4"]["DISTANCE"]
+        self.distance_button = cp_acc.vl["ACC_CONTROL"]["DISTANCE"]
       elif self.CP.carFingerprint in (TSS2_CAR - RADAR_ACC_CAR):
         self.distance_button = cp_acc.vl["ACC_CONTROL"]["DISTANCE"]
       else:
