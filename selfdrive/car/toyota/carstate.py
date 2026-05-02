@@ -278,7 +278,7 @@ class CarState(CarStateBase):
         ("GAS_PEDAL", 42),
       ]
       if CP.carFingerprint not in RADAR_ACC_CAR:
-        messages.append(("PCM_CRUISE_4", 1))
+       # messages.append(("PCM_CRUISE_4", 1))
     else:
       messages.append(("VSC1S07", 20))
       if CP.carFingerprint not in [CAR.TOYOTA_MIRAI]:
